@@ -14,3 +14,8 @@ Laravel explicações
 Intruções
 
 ](https://github.com/user-attachments/files/16338784/intrucoes.txt)
+[
+intruçõesFrontEnd
+
+
+](https://github.com/user-attachments/files/16338824/intrucoesFrontEnd.txt)
