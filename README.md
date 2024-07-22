@@ -1,4 +1,6 @@
 [anotaçoesGit.txt](https://github.com/user-attachments/files/16337722/anotacoesGit.txt)
+[laravelEstudo.txt](https://github.com/user-attachments/files/16338710/laravelEstudo.txt)
+
 # teste
 lorem
 [
