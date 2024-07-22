@@ -10,3 +10,7 @@ Laravel explicações
 
 ](https://www.devmedia.com.br/guia/laravel/38191)
 
+[
+Intruções
+
+](https://github.com/user-attachments/files/16338784/intrucoes.txt)
