@@ -1,9 +1,7 @@
-[anotaçoesGit.txt](https://github.com/user-attachments/files/16337722/anotacoesGit.txt)
-[laravelEstudo.txt](https://github.com/user-attachments/files/16338710/laravelEstudo.txt)
+[anotações Uteis para Git
+](https://github.com/user-attachments/files/16337722/anotacoesGit.txt)
 
-# teste
-lorem
+[Laravel Estudo](https://github.com/user-attachments/files/16338710/laravelEstudo.txt)
 [
-123
-3
+Laravel explicações
 ](https://www.devmedia.com.br/guia/laravel/38191)
