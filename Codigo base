@@ -1,0 +1,67 @@
+codigo base
+aqui está um exemplo completo que mostra como usar todos os conceitos mencionados acima:
+
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Events\OrderShipped;
+use App\Http\Requests\StoreUserRequest;
+use App\Jobs\SendOrderEmail;
+use App\Models\Order;
+use App\Models\User;
+use App\Notifications\OrderShippedNotification;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Notification;
+
+class UserController extends Controller
+{
+    public function index()
+    {
+        $users = User::all();
+        return view('users.index', ['users' => $users]);
+    }
+
+    public function store(StoreUserRequest $request)
+    {
+        // Criação de um novo usuário
+        $user = User::create($request->validated());
+
+        // Retorna uma resposta de sucesso
+        return response()->json(['message' => 'Usuário criado com sucesso'], 201);
+    }
+
+    public function broadcastOrderShipped(Request $request)
+    {
+        $order = new Order();
+        // Lógica para criar o pedido...
+
+        // Dispara o evento de broadcasting
+        event(new OrderShipped($order));
+
+        return response()->json(['message' => 'Pedido enviado para broadcasting'], 200);
+    }
+
+    public function sendOrderEmail(Request $request)
+    {
+        $order = new Order();
+        // Lógica para criar o pedido...
+
+        // Adiciona o job para enviar o e-mail de forma assíncrona
+        SendOrderEmail::dispatch($order);
+
+        return response()->json(['message' => 'E-mail de pedido enviado para fila'], 200);
+    }
+
+    public function sendOrderNotification(Request $request)
+    {
+        $order = new Order();
+        // Lógica para criar o pedido...
+
+        // Envia a notificação
+        Notification::send($request->user(), new OrderShippedNotification($order));
+
+        return response()->json(['message' => 'Notificação de pedido enviada'], 200);
+    }
+}
