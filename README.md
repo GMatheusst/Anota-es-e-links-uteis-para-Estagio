@@ -1,6 +1,8 @@
 anotações Uteis para Git 
 (https://github.com/user-attachments/files/16337722/anotacoesGit.txt)
 
+Laravel(https://laravel.com/)
+
 Laravel Estudo 
 (https://github.com/user-attachments/files/16338710/laravelEstudo.txt)
 
