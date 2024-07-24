@@ -3,6 +3,7 @@ anotações Uteis para Git
 
 Laravel(https://laravel.com/)
 
+(Composer[https://getcomposer.org/])
 Laravel Estudo 
 (https://github.com/user-attachments/files/16338710/laravelEstudo.txt)
 
