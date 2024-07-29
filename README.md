@@ -28,3 +28,6 @@ Laravel 1.1(explicação Completa)
 
 Laravel 1.2(implementação)
 (https://github.com/user-attachments/files/16353631/laravel1.2.txt)
+Descrição do projeto 
+[Descrição do projeto](https://github.com/user-attachments/files/16417984/Documentacao.do.projeto.-.EmailVerficationCode.txt)
+
