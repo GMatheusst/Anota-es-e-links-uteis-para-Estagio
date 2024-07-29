@@ -1,3 +1,4 @@
+
 [anotações Uteis para Git](https://github.com/user-attachments/files/16337722/anotacoesGit.txt)
 
 [Laravel](https://laravel.com/)
@@ -22,3 +23,4 @@
 
 [Descrição do projeto](https://github.com/user-attachments/files/16417984/Documentacao.do.projeto.-.EmailVerficationCode.txt)
 
+[Codigo de Verificação de Email](https://github.com/user-attachments/files/16418360/codigo.txt)
