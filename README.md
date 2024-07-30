@@ -26,3 +26,5 @@
 [Codigo de Verificação de Email](https://github.com/user-attachments/files/16418360/codigo.txt)
 
 [Task Scheduling](https://dev.to/n3rdnerd/laravel-task-scheduling-scheduling-artisan-commands-3311)
+
+[Task code](https://github.com/user-attachments/files/16432301/taskinfo.txt)
