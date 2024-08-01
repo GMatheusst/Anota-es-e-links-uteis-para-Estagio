@@ -31,6 +31,10 @@
 
 [Task Scheduling 2](https://www.golinuxcloud.com/set-cron-in-laravel/)
 
+[Httpie](https://httpie.io/app)
+
+[Mailtrap](https://mailtrap.io/inboxes/3049831/messages/4372095646/advanced_html_analysis)
+
 Ainda não é possível fazer o merge das alterações pelos seguintes motivos:
 
 No método store(), linha 19, a validação de email tem que verificar se o usuário com esse email existe no banco, exists:users,email
