@@ -1,3 +1,4 @@
+[Open ia api](https://github.com/marketplace/models/azure-openai/gpt-4o-mini)
 [FiraCode.zip](https://github.com/user-attachments/files/16716890/FiraCode.zip)
 
 [anotações Uteis para Git](https://github.com/user-attachments/files/16337722/anotacoesGit.txt)
