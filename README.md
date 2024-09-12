@@ -1,3 +1,7 @@
+[Sind + Beneficios](https://github.com/user-attachments/assets/0faeac21-5aed-4c5f-8640-0cec66abd021)
+
+[Request](https://github.com/user-attachments/assets/badc34c9-3943-43e1-9824-2ce774496ae4)
+
 [Open ia api](https://github.com/marketplace/models/azure-openai/gpt-4o-mini)
 
 [FiraCode.zip](https://github.com/user-attachments/files/16716890/FiraCode.zip)
