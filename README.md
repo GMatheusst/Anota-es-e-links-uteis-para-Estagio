@@ -21,3 +21,5 @@
 [Httpie](https://httpie.io/app)
 
 [Mailtrap](https://mailtrap.io/inboxes/3049831/messages/4372095646/advanced_html_analysis)
+
+[Netx](https://nextjs.org/learn)
