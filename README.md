@@ -1,3 +1,6 @@
+
+[Next](https://nextjs.org/learn)
+
 [Open ia api](https://github.com/marketplace/models/azure-openai/gpt-4o-mini)
 
 [FiraCode.zip](https://github.com/user-attachments/files/16716890/FiraCode.zip)
@@ -22,4 +25,3 @@
 
 [Mailtrap](https://mailtrap.io/inboxes/3049831/messages/4372095646/advanced_html_analysis)
 
-[Netx](https://nextjs.org/learn)
