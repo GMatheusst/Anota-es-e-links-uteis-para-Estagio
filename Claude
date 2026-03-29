@@ -1,0 +1,144 @@
+# 🤖 Integração com Claude Code
+
+Este projeto utiliza o **Claude Code via Ollama** para auxiliar no desenvolvimento, geração de código, refatoração e análise de arquivos.
+
+---
+
+## 🚀 Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+* [Ollama](https://ollama.com/)
+* Node.js (opcional, dependendo do projeto)
+* Acesso a modelos (local ou cloud)
+
+---
+
+## ⚙️ Como iniciar o Claude Code
+
+1. Abra o projeto no terminal ou no VS Code:
+
+```bash
+cd caminho/do/seu-projeto
+```
+
+2. Inicie o Claude:
+
+```bash
+ollama launch claude --model qwen3.5:cloud
+```
+
+---
+
+## 🧠 Modelos recomendados
+
+| Modelo            | Uso                      |
+| ----------------- | ------------------------ |
+| `qwen3.5:cloud`   | Uso geral (recomendado)  |
+| `kimi-k2.5:cloud` | Código mais avançado     |
+| `glm-5:cloud`     | Debug e projetos grandes |
+| `qwen3.5`         | Uso local (offline)      |
+
+---
+
+## 📂 Estrutura recomendada
+
+Sempre execute o Claude dentro da pasta do projeto:
+
+```
+/meu-projeto
+ ├── src
+ ├── package.json
+ ├── README.md
+ └── CLAUDE.md
+```
+
+---
+
+## 🛠️ Comandos úteis
+
+### Criar arquivo de configuração:
+
+```bash
+/init
+```
+
+Isso cria um arquivo `CLAUDE.md` com instruções personalizadas.
+
+---
+
+### Ver atalhos:
+
+```bash
+?
+```
+
+---
+
+## ✍️ Exemplos de uso
+
+Dentro do terminal do Claude, você pode pedir:
+
+* Criar código:
+
+```
+crie uma API em node com express
+```
+
+* Refatorar:
+
+```
+refatore esse código para melhor performance
+```
+
+* Debug:
+
+```
+por que esse erro está acontecendo?
+```
+
+---
+
+## 🔒 Segurança
+
+⚠️ Importante:
+
+* Evite rodar o Claude em diretórios como:
+
+  * `C:\Users`
+  * `C:\Windows`
+
+* Sempre utilize pastas isoladas de projeto
+
+* Revise comandos antes de executar
+
+---
+
+## 💡 Boas práticas
+
+* Use uma pasta dedicada para cada projeto
+* Crie um `CLAUDE.md` com instruções específicas
+* Utilize modelos diferentes conforme a necessidade
+* Sempre revise código gerado antes de usar
+
+---
+
+## 📌 Observações
+
+* O Claude Code funciona como um agente de desenvolvimento no terminal
+* Ele pode ler, editar e executar arquivos dentro do projeto
+* Modelos cloud requerem conexão com a internet
+
+---
+
+## 🚀 Próximos passos
+
+* Integrar com VS Code
+* Automatizar tarefas com IA
+* Criar fluxos de desenvolvimento assistido
+
+---
+
+## 👨‍💻 Autor
+
+Projeto configurado para uso com IA no desenvolvimento moderno.
